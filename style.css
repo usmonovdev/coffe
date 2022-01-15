@@ -1,0 +1,511 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    height: 100vh;
+    background: #502601;
+    overflow: hidden;
+}
+
+.stol{
+    width: 100%;
+    height: 300px;
+    background-color: #CF803D;
+    position: relative;
+    top: 453px;
+    border: none;
+    border-top: 4px solid #ee9d56;
+    z-index: -1;
+}
+
+.stol span{
+    width: 100%;
+    height: 2px;
+    background: aqua;
+    position: relative;
+    display: inline-block;
+}
+
+.stol span:nth-child(1){
+    background: #C26A20;
+    top: -5px;
+}
+
+.stol span:nth-child(2){
+    background: #C26A20;
+}
+
+.stol span:nth-child(3){
+    background: #C26A20;
+    top: -7px;
+    height: 4px;
+}
+
+.stol span:nth-child(4){
+    background: #C26A20;
+    top: 7px;
+}
+
+.stol span:nth-child(5){
+    background: #C26A20;
+    top: -5px;
+    height: 4px;
+}
+
+.stol span:nth-child(6){
+    background: #C26A20;
+    top: -5px;
+    height: 4px;
+}
+
+.stol span:nth-child(7){
+    background: #C26A20;
+    top: 4px;
+    height: 3px;
+}
+
+.stol span:nth-child(8){
+    background: #ee9d56;
+    top: 10px;
+    height: 50px;
+    border-radius: 30%;
+}
+
+.stol span:nth-child(9){
+    background: #C26A20;
+    height: 3px;
+}
+
+.stol span:nth-child(10){
+    background: #C26A20;
+    height: 3px;
+    top: -10px;
+}
+
+.stol span:nth-child(11){
+    background: #C26A20;
+    height: 10px;
+    top: 10px;
+    border: none;
+    border-top: 3px solid #ee9d56;
+    border-bottom: 10px solid #ee9d56;
+}
+
+.stol span:nth-child(12){
+    background: #C26A20;
+    top: 10px;
+}
+
+.stol span:nth-child(13){
+    background: #C26A20;
+    top: 10px;
+}
+
+.sochiq{
+    width: 70%;
+    height: 100%;
+    background: rgb(226, 226, 226);
+    position: absolute;
+    top: -4px;
+    left: 15%;
+    border: none;
+    border-top: 4px solid rgb(226, 226, 226);
+    transform-origin: top;
+    transform: perspective(500px) rotateX(30deg);
+    box-shadow: 0px 0px 5px #301c0d;
+}
+
+.chiziqlariBoyiga{
+    width: 53px;
+    height: 100%;
+    background: rgba(233, 54, 54, 0.76);
+    position: relative;
+    display: inline-block;
+    top: -4px;
+    margin-left: 47px;
+    border: none;
+    border-top: 4px solid rgba(233, 69, 69, 0);
+}
+
+.chiziqlariEniga{
+    width: 100%;
+    height: 53px;
+    background: rgba(231, 81, 81, 0.76);
+    position: relative;
+    display: inline-block;
+    top: -360px;
+    margin-top: 47px;
+    border: none;
+    border-top: 4px solid rgba(233, 69, 69, 0);
+}
+
+.container{
+    width: 900px;
+    height: 600px;
+    z-index: 1;
+    position: absolute;
+    top: 80%;
+    left: 50%;
+    transform: translateY(-80%) translateX(-50%);
+}
+
+.piyolaUsti{
+    width: 250px;
+    height: 180px;
+    background: linear-gradient(to right, #c49e96, #FCF7F4);
+    position: relative;
+    display: inline-block;
+    top: 350px;
+    left: 150px;
+    border-bottom-left-radius: 80%;
+    border-bottom-right-radius: 80%;
+}
+
+.ichiUsti{
+    width: 254px;
+    height: 100px;
+    background: linear-gradient(to right, #cb9c76, #F1D1C7);
+    position: relative;
+    display: inline-block;
+    border-radius: 60%;
+    left: -1px;
+    top: -50px;
+}
+
+.ichiIchi{
+    width: 94%;
+    height: 90%;
+    background: linear-gradient(#F4FCFB, #C08A76);
+    position: relative;
+    top: 5%;
+    left: 3%;
+    display: inline-block;
+    border-radius: 60%;
+    overflow: hidden;
+}
+
+.cofe{
+    width: 100%;
+    height: 100%;
+    background: #6e3809;
+    position: relative;
+    display: inline-block;
+    border-radius: 60%;
+    top: 20px;
+}
+
+.piyolaUshlagichi{
+    width: 100px;
+    height: 50px;
+    position: absolute;
+    background: #c78957;
+    display: inline-block;
+    top: 20px;
+    left: 160px;
+    border-radius: 60%;
+    transform: rotate(-30deg);
+    border: 20px solid #F1D1C7;
+    z-index: -4;
+}
+
+.qizil{
+    width: 100px;
+    height: 40px;
+    position: absolute;
+    background: #E75F5F;
+    display: inline-block;
+    top: 40px;
+    left: 176px;
+    border-radius: 60%;
+    transform: rotate(-25deg);
+    z-index: -1;
+}
+
+.usti{
+    width: 130px;
+    height: 80px;
+    position: absolute;
+    background: #d19e75;
+    display: inline-block;
+    top: 0px;
+    left: 163px;
+    border-radius: 60%;
+    transform: rotate(-5deg);
+    z-index: -5;
+}
+
+.piyolaSoyasi{
+    width: 80%;
+    height: 50%;
+    background: linear-gradient(to left, rgba(0, 0, 0, 0.315), rgba(0, 0, 0, 0.048) );
+    position: relative;
+    display: inline-block;
+    border-radius: 60%;
+    top: -40px;
+    left: -25px;
+    z-index: -2;
+    transform: rotate(5deg) scaleY(0.8) scaleX(1.1);
+}
+
+.pasti{
+    width: 50%;
+    height: 50px;
+    background: linear-gradient(to right, #d8a094, #ebd8ce);
+    position: relative;
+    display: inline-block;
+    border-radius: 40%;
+    left: 25%;
+    top: 22%;
+    z-index: -1;
+}
+
+.tarelka{
+    width: 400px;
+    height: 150px;
+    background: linear-gradient(to right, #c49e96, #FCF7F4, #c49e96);
+    position: absolute;
+    display: inline-block;
+    top: 450px;
+    left: 80px;
+    border-radius: 60%;
+    z-index: -3;
+}
+
+.tarelkaChegarasi{
+    width: 250px;
+    height: 80px;
+    background: linear-gradient(to left, #E1B9B0, #FCF7F4);
+    position: relative;
+    display: inline-block;
+    border-radius: 60%;
+    left: 75px;
+    top: 30px;
+    overflow: hidden;
+}
+
+.chegarasiIchi{
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(to right, #E1B9B0, #FCF7F4);
+    position: relative;
+    display: inline-block;
+    border-radius: 60%;
+    top: 10px;
+}
+
+.tarelkaPasti{
+    width: 400px;
+    height: 150px;
+    background: linear-gradient(to right, #c49e96, #FCF7F4);
+    position: absolute;
+    display: inline-block;
+    top: -8px;
+    left: 0px;
+    border-radius: 60%;
+    z-index: -4;
+}
+
+.tarelkaPastiSoyasi{
+    width: 400px;
+    height: 150px;
+    background: linear-gradient(to left, rgba(0, 0, 0, 0.514), rgba(0, 0, 0, 0.068));
+    position: absolute;
+    display: inline-block;
+    top: 470px;
+    left: 10px;
+    border-radius: 60%;
+    z-index: -4;
+}
+
+.bug{
+    width: 4px;
+    height: 100px;
+    background: rgba(255, 255, 255, 0.89);
+    position: relative;
+    top: 100px;
+    left: 470px;
+    transform: translateY(280px);
+    margin: 4px;
+    display: inline-block;
+    top: -200px;
+    border-radius: 50%;
+    z-index: 999;
+    opacity: 0;
+    filter: blur(8px);
+    animation: bug 5s linear infinite;
+}
+
+@keyframes bug {
+    0%{
+        transform: translateY(280px) scaleX(1);
+        opacity: 0;
+    }
+
+    15%{
+        opacity: 1;
+    }
+
+    50%{
+        transform: translateY(-150px) scaleX(5);
+    }
+
+    90%{
+        opacity: 0;
+    }
+
+    100%{
+        transform: translateY(-300px) scaleX(10);
+        opacity: 0;
+    }
+}
+
+.bug:nth-child(2){
+    animation: bug 5s linear infinite;
+    animation-delay: 1s;
+}
+
+.bug:nth-child(3){
+    animation: bug 5s linear infinite;
+    animation-delay: 1s;
+}
+
+.bug:nth-child(4){
+    animation: bug 5s linear infinite;
+    animation-delay: 1.4s;
+}
+
+.bug:nth-child(5){
+    animation: bug 5s linear infinite;
+    animation-delay: 1.4s;
+}
+
+.bug:nth-child(6){
+    animation: bug 5s linear infinite;
+    animation-delay: 1.5s;
+}
+
+.bug:nth-child(7){
+    animation: bug 5s linear infinite;
+    animation-delay: 1.2s;
+}
+
+.bug:nth-child(8){
+    animation: bug 5s linear infinite;
+    animation-delay: 1.2s;
+}
+
+.bug:nth-child(9){
+    animation: bug 5s linear infinite;
+    animation-delay: 2s;
+}
+
+.bug:nth-child(10){
+    animation: bug 5s linear infinite;
+    animation-delay: 1.8s;
+}
+
+.bug:nth-child(11){
+    animation: bug 5s linear infinite;
+    animation-delay: 2.3s;
+}
+
+.bug:nth-child(12){
+    animation: bug 5s linear infinite;
+    animation-delay: 2.4s;
+}
+
+.bug:nth-child(13){
+    animation: bug 4s linear infinite;
+    animation-delay: 2.4s;
+}
+
+.bug:nth-child(14){
+    animation: bug 6s linear infinite;
+    animation-delay: 2.2s;
+}
+
+.bug:nth-child(15){
+    animation: bug 4s linear infinite;
+    animation-delay: 2.1s;
+}
+
+.bug:nth-child(16){
+    animation: bug 5s linear infinite;
+    animation-delay: 3s;
+}
+
+.bug:nth-child(17){
+    animation: bug 4s linear infinite;
+    animation-delay: 3s;
+}
+
+.bug:nth-child(18){
+    animation: bug 5s linear infinite;
+    animation-delay: 3.3s;
+}
+
+.bug:nth-child(19){
+    animation: bug 4s linear infinite;
+    animation-delay: 3.8s;
+}
+
+.bug:nth-child(20){
+    animation: bug 4s linear infinite;
+    animation-delay: 4s;
+}
+
+.limon{
+    width: 120px;
+    height: 60px;
+    border-bottom-left-radius: 100px;
+    border-bottom-right-radius: 100px;
+    background: linear-gradient(to right, #fcdc2a, #fff456);
+    border: none;
+    border-right: 5px solid #f5bf2b;
+    border-left: 5px solid #f5bf2b;
+    border-top: 1px solid #f5bf2b;
+    border-bottom: 5px solid #f5bf2b;
+    position: relative;
+    left: 320px;
+    top: 240px;
+    display: flex;
+    justify-content: center;
+    transform: rotate(10deg);
+    z-index: 30;
+}
+
+.limon::before{
+    content: "";
+    width: 90px;
+    height: 45px;
+    border-bottom-left-radius: 100px;
+    border-bottom-right-radius: 100px;
+    background: #fafd56;
+    position: absolute;
+
+}
+
+.limonSoyasi{
+    width: 140px;
+    height: 70px;
+    border-bottom-left-radius: 100px;
+    border-bottom-right-radius: 100px;
+    background: linear-gradient(to left, rgba(0, 0, 0, 0.267), rgba(0, 0, 0, 0));
+    position: relative;
+    left: 310px;
+    top: 185px;
+    display: flex;
+    justify-content: center;
+    transform: rotateX(-45deg);
+    z-index: 20;
+}
+
+.lIkki{
+    position: relative;
+    top: -150px;
+    left: -70px;
+    z-index: 18;
+    transform: rotate(-30deg);
+}
